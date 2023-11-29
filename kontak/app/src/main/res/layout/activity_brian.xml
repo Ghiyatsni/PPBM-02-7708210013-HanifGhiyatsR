@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Brian"
+    android:background="@drawable/gelap">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"
+            android:src="@drawable/brian">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="40dp"
+            android:text="Nama   =     Brian Nayaka Prasetya"
+            android:textColor="@color/white"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/nama2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nama"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="10dp"
+            android:text="Kelas    =     45-02"
+            android:textColor="@color/white"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/nama3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nama2"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="10dp"
+            android:text="Hobby    =     Bermain games"
+            android:textColor="@color/white"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
