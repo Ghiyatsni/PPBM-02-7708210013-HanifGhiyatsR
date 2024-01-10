@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <ViewFlipper
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/flip"
+        android:autoStart="true"
+        android:flipInterval="3500"
+        android:outAnimation="@android:anim/slide_out_right"
+        android:inAnimation="@android:anim/slide_in_left">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/recommend1"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/shape3">
+
+            <ImageView
+                android:id="@+id/pemeli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pemeli"></ImageView>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/recommend2"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/shape3">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/persen"
+                android:id="@+id/jkt">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/recommend3"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/shape3">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:src="@drawable/asuransi1"
+                android:id="@+id/bdg">
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+    </ViewFlipper>
+
+    <TextView
+        android:id="@+id/keluargaberencana"
+        android:layout_width="400dp"
+        android:layout_height="215dp"
+        android:layout_below="@id/flip"
+        android:layout_marginTop="210dp"
+        android:fontFamily="@font/poppinsbold"
+        android:paddingLeft="25dp"
+        android:text="Paket Keluarga "
+        android:textSize="30dp">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/flip"
+        android:layout_marginTop="260dp"
+        android:paddingLeft="14dp"
+        android:text="    Tiket Kereta/Bus/pesawat/Mobil diskon 20% "
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15dp"
+        android:id="@+id/diskon">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="14dp"
+        android:text="    Gratis snack ketika tiba di tujuan "
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15dp"
+        android:id="@+id/gratis"
+        android:layout_marginTop="280dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:paddingLeft="14dp"
+        android:text="    Asuransi keselamatan  "
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15dp"
+        android:id="@+id/gratis2"
+        android:layout_marginTop="300dp"
+        android:layout_below="@id/flip">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/gratis3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/flip"
+        android:layout_marginTop="320dp"
+        android:fontFamily="@font/poppinsbold"
+        android:paddingLeft="14dp"
+        android:text="    Tempat penginapan disediakan, diskon 30%  "
+        android:textSize="15dp">
+
+    </TextView>
+
+
+</FrameLayout>

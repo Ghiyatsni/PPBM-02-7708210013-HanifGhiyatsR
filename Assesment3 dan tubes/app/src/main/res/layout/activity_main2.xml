@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/poppinssemibold"
+        android:textColor="@color/SecondaryColor"
+        android:id="@+id/buttonbook"
+        android:layout_centerHorizontal="true"
+        android:text="Pemesanan">
+
+    </androidx.appcompat.widget.AppCompatButton>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="310dp"
+        android:layout_height="wrap_content"
+        app:tabIndicator="@drawable/button_shape"
+        app:tabIndicatorAnimationMode="fade"
+        app:tabIndicatorFullWidth="true"
+        app:tabIndicatorColor="@null"
+        app:tabIndicatorGravity="stretch"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/SecondaryColor">
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tabLayout"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="30dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="70dp"
+        android:background="@drawable/shape2"
+        android:id="@+id/kotakbiru">
+    </ImageView>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/shape3"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/seacrh"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="150dp"
+        android:id="@+id/search">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/search"
+        android:layout_marginTop="53dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:src="@drawable/train"
+            android:id="@+id/train">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:src="@drawable/bus"
+            android:id="@+id/bus">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="60dp"
+            android:src="@drawable/airplane"
+            android:id="@+id/pesawat1">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:src="@drawable/car"
+            android:id="@+id/mobilkeren">
+
+        </ImageView>
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kereta"
+        android:layout_marginTop="140dp"
+        android:paddingLeft="25dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15sp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bus"
+        android:layout_marginTop="140dp"
+        android:paddingLeft="122dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15sp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesawat"
+        android:layout_marginTop="140dp"
+        android:paddingLeft="230dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15sp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobil"
+        android:layout_marginTop="140dp"
+        android:paddingLeft="320dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15sp">
+
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="6dp"
+        android:layout_marginTop="300dp"
+        android:background="@color/biru"
+        android:id="@+id/garis">
+
+    </View>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Telusuri"
+        android:layout_marginTop="69dp"
+        android:paddingRight="60dp"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="15dp"
+        android:background="@color/SecondaryColor">
+    </EditText>
+
+
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_back2"
+    android:id="@+id/balikkemain"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp">
+
+</ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Happy Holiday Travellers !"
+        android:fontFamily="@font/poppinsextra"
+        android:gravity="center"
+        android:textColor="@color/SecondaryColor"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:paddingRight="10dp">
+
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="330dp"
+        android:src="@drawable/burung">
+
+    </ImageView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

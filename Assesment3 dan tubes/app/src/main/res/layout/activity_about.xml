@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_shape"
+    android:backgroundTint="@color/SecondaryColor">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/gantenkkkk" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama     = Hanif Ghiyats R"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="140dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jurusan  = S1 TRM"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:paddingLeft="80dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelas       = 45-02"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:paddingLeft="80dp"
+        android:id="@+id/kenalan"/>
+    <View
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="6dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/biru"
+        android:backgroundTint="@color/primaryColor"
+        android:layout_below="@+id/kenalan"
+        android:id="@+id/garis1">
+    </View>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle"
+        android:layout_marginTop="90dp"
+        android:paddingLeft="25dp"
+        android:layout_below="@id/garis1"/>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle"
+        android:layout_marginTop="90dp"
+        android:paddingLeft="235dp"
+        android:layout_below="@id/garis1"
+        android:id="@+id/bulet2"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="( Hobi Saya )"
+        android:layout_below="@id/garis1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:textSize="20dp"/>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="235dp"
+        android:layout_below="@id/bulet2">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="25dp"
+        android:layout_below="@id/bulet2">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="270dp"
+        android:paddingLeft="32dp"
+        android:src="@drawable/tikotk">
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scrolling Tiktok"
+        android:textStyle="bold"
+        android:layout_marginTop="440dp"
+        android:paddingLeft="48dp"
+        android:textSize="15dp">
+
+    </TextView>
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="240dp"
+        android:src="@drawable/manjat"
+        android:layout_below="@id/garis1">
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mendaki Gunung"
+        android:textStyle="bold"
+        android:layout_marginTop="440dp"
+        android:paddingLeft="260dp"
+        android:textSize="15dp">
+
+    </TextView>
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="470dp"
+        android:paddingLeft="32dp"
+        android:src="@drawable/valo">
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bermain Game"
+        android:textStyle="bold"
+        android:layout_marginTop="635dp"
+        android:paddingLeft="50dp"
+        android:textSize="15dp">
+
+    </TextView>
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="240dp"
+        android:src="@drawable/basket"
+        android:layout_below="@id/garis1"
+        android:id="@+id/basket">
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Bermain Basket"
+        android:textStyle="bold"
+        android:layout_marginTop="635dp"
+        android:paddingLeft="260dp"
+        android:textSize="15dp">
+
+    </TextView>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/basket"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:text="Kembali"
+        android:textColor="@color/SecondaryColor"
+        android:id="@+id/balik">
+
+    </Button>
+
+</RelativeLayout>
