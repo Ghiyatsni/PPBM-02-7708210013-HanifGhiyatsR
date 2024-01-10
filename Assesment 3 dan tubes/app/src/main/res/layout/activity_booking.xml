@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="80dp"
+        android:text="Pesan Tiket"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppinsbold"
+        android:id="@+id/tiket">
+    </TextView>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/ktp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gaskeun">
+
+    </ImageView>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:src="@drawable/couple"
+        android:layout_marginTop="70dp"
+        android:paddingLeft="60dp">
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mohon isi identitas anda"
+        android:textSize="17dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/SecondaryColor"
+        android:layout_marginTop="80dp"
+        android:paddingLeft="120dp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="17dp"
+        android:id="@+id/kembali">
+
+    </ImageView>
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="550dp"
+        android:src="@drawable/cardviewtiket"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/oke"
+        >
+
+    </ImageView>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gaskeun"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        android:id="@+id/linear1"
+        >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Penumpang"
+            android:paddingLeft="50dp"
+            android:fontFamily="@font/poppinsregular">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="49dp">
+
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear1"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="50dp"
+        android:id="@+id/bawahnya">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keberangkatan"
+            android:fontFamily="@font/poppinsregular"
+            android:id="@+id/brancut">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tujuan"
+            android:fontFamily="@font/poppinsregular"
+            android:paddingLeft="90dp">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="275dp"
+        android:paddingLeft="45dp"
+        android:src="@drawable/shape3">
+
+    </ImageView>
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="275dp"
+        android:paddingLeft="42dp"
+        android:src="@drawable/shape3">
+
+    </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bawahnya"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="42dp"
+        android:id="@+id/spinner">
+
+        <Spinner
+            android:id="@+id/pilihan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:fontFamily="@font/poppinsregular">
+
+        </Spinner>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsregular"
+            android:paddingLeft="55dp"
+            android:id="@+id/pilihan2">
+
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Berangkat"
+            android:fontFamily="@font/poppinsregular">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp">
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner"
+        android:layout_marginTop="110dp"
+        android:paddingLeft="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No.Telp / HP"
+            android:fontFamily="@font/poppinsregular">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp">
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:paddingLeft="50dp"
+        android:id="@+id/jk">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"
+        android:fontFamily="@font/poppinsregular">
+
+    </TextView>
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jk"
+        android:layout_marginTop="5dp"
+        android:id="@+id/trakhir">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="50dp">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laki - Laki" />
+
+
+        </RadioGroup>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp">
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perempuan" />
+        </RadioGroup>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/trakhir"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="130dp"
+        android:id="@+id/trakhirbgt">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beri Nilai Aplikasi Ini"
+            android:fontFamily="@font/poppinsregular">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/trakhirbgt"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="80dp"
+        android:id="@+id/bgt">
+    <RatingBar
+        android:layout_width="245dp"
+        android:layout_height="40dp">
+
+    </RatingBar>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bgt"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="135dp"
+            android:background="@drawable/button_shape"
+            android:text="Kirim"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="@color/SecondaryColor"
+            android:id="@+id/idBtnShowBottomSheet">
+        </Button>
+
+    </LinearLayout>
+
+</RelativeLayout>
